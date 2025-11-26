@@ -9,7 +9,7 @@ function medianOfKth(a, b, m, n, k) {
     }
  // copy the left-out elements:
     while (i < m) arr3.push(a[i++])
-    while (j < m) arr3.push(b[j++])
+    while (j < n) arr3.push(b[j++])
 // if we write arr3[k] would give the 6th element.
 //Arrays start at 0, not 1.
 //We use k-1 because humans count from 1, but arrays count from 0.

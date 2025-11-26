@@ -3,7 +3,7 @@ function kthElement(a1,b1,m1,n1,k){
     let ele = -1
     let cnt = 0
     let i =0;j = 0
-    while(a1<m1 && b1<n1){
+    while(i<m1 && j<n1){
         if(a1[i] < b1[j]){
             if (cnt === k-1) ele = a1[i]
             cnt++
