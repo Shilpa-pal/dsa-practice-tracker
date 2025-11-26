@@ -18,8 +18,7 @@ function bruteforce(a, b, k) {
 }
 let a = [2, 3, 6, 7, 9];
 let b = [1, 4, 8, 10];
-console.log("The k-th element of two sorted arrays is: " +
-    bruteforce(a, b, 5));
+console.log("The k-th element of two sorted arrays is: " +bruteforce(a, b, 5));
 
 // time complexcity
 // Merging two arrays and comparing and pushing elements until one array ends → this takes O(m + n)
@@ -99,5 +98,6 @@ function kthElement(a1, b1, m1, n1, k) {
 let a1 = [2, 3, 6, 7, 9];
 let b1 = [1, 4, 8, 10];
 console.log("Result: " + kthElement(a1, b1, a1.length, b1.length, 7));
+
 
 
