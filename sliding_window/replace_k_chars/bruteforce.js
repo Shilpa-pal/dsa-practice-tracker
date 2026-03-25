@@ -11,8 +11,8 @@ function characterReplacement(string, k) {
     let res = 0;
 
     for (let i = 0; i < n; i++) {
-        let freq = new Map()
-        let maxfreq = 0
+        let freq = new Map()  //  reset every i
+        let maxfreq = 0 // reset every i
 
         for (j = i; j < n; j++) {
 
