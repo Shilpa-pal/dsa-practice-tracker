@@ -1,5 +1,6 @@
 
-// merging two sorted array square
+// question is squares of sorted array
+
 function sortedSquares(arr){
     //making two empty array to store negative number in one array and positive array in another
     let negativearray = []
